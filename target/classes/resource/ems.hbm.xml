@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.model.Companybean" table="EMS_Company">
+		<meta attribute="class-description"> This class contains enquiry details. </meta>
+		<id name="Company_ID" type="string">
+			<generator class="assigned"></generator>
+		</id>
+		
+		<property name="Company_name" column="Company_name"/>
+		<property name="Company_code" column="Company_code" />
+		<property name="Address" column="Address" />
+		<property name="Country" column="Country" />
+		<property name="State" column="State" />
+		<property name="City" column="City" />
+		<property name="Pincode" column="Pincode" />
+		<property name="Email" column="Email" />
+		<property name="phone" column="phone" />
+		<property name="Contact_person" column="Contact_person" />
+		<property name="Person_phone" column="Person_phone" />
+		<property name="Person_email" column="Person_email" />
+		
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>EMS_10_April_2018</display-name>
+  <welcome-file-list>
+    <welcome-file>DashboardCompany.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CompanyServlet</display-name>
+    <servlet-name>CompanyServlet</servlet-name>
+    <servlet-class>com.controller.CompanyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CompanyServlet</servlet-name>
+    <url-pattern>/CompanyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteServlet</display-name>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>com.controller.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ExcelImport</display-name>
+    <servlet-name>ExcelImport</servlet-name>
+    <servlet-class>com.controller.ExcelImport</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExcelImport</servlet-name>
+    <url-pattern>/ExcelImport</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+.tbl th
+{
+	background-color:#357CA5;
+	color:#FFF;
+	text-align:center;
+}
+.tbl tr td
+{
+	text-align:center;
+	padding:inherit;
+}
+
+.tbl tbody tr th
+{
+	border:#538BAD solid 1px !important;
+	
+}
+.tbl tbody tr td
+{
+	border:#538BAD solid 1px !important;
+}
+
+.mybtn
+{
+	background-color:#F39C12 !important;
+	border-color:#F5B041 !important;
+	color:#fff !important;
+}
+
+.mybtn:hover
+{
+	background-color:#e48e25 !important;
+	border-color:#F5B041 !important;
+	color:#fff;
+}
+
+
+.mymodal
+{
+	border-bottom-color: #a2aeea !important;
+    background-color: #538BAD !important;
+    color: #fff !important;
+}
+.btn{
+	display: flex;
+	flex-direction: row;
+}
